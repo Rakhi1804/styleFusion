@@ -7,7 +7,7 @@
 }
 
 :root {
-  --primary: #003366; /* Deep blue for strong elements */
+  --primary: #000000; /* Deep blue for strong elements */
   --accent: #00cc99; /* Vibrant teal accent for energy */
   --light: #f0f8ff; /* Soft off-white background */
   --text-colour: #444; /* General text colour */
@@ -39,8 +39,7 @@
 
 /* Hero Section */
 .about-hero {
-  background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), /* Using primary colour in gradient */
-    url('');
+  background: linear-gradient(rgb(3, 99, 99));
   background-size: cover;
   background-position: center;
   color: #fff;
