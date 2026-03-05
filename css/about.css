@@ -1,0 +1,230 @@
+/* Style Fusion Theme - Energetic & Modern Palette */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --primary: #003366; /* Deep blue for strong elements */
+  --accent: #00cc99; /* Vibrant teal accent for energy */
+  --light: #f0f8ff; /* Soft off-white background */
+  --text-colour: #444; /* General text colour */
+  --footer-bg: #001f3f; /* Deep blue-black footer */
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--light);
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: var(--primary);
+}
+
+.brand-name span {
+  color: var(--accent);
+}
+
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), /* Using primary colour in gradient */
+    url('');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.about-hero h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+/* Story Section */
+.story-section {
+  padding: 80px 0;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.text-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: var(--primary);
+}
+
+.text-content p {
+  line-height: 1.8;
+  color: var(--text-colour); /* Changed from #555 to a variable */
+  margin-bottom: 15px;
+}
+
+.image-content img {
+  width: 100%;
+}
+
+/* Values Section */
+.values-section {
+  background: var(--light);
+  padding: 80px 0;
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.value-item {
+  background: #fff;
+  padding: 40px;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(205, 161, 161, 0.05); /* Added subtle shadow */
+}
+
+.value-item:hover {
+  transform: translateY(-10px);
+}
+
+.value-item .icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: var(--accent); /* Coloured icons with accent */
+}
+
+/* Mobile Tweak */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-hero h1 {
+    font-size: 2.5rem;
+  }
+}
+/* General Layout */
+body { margin: 0; font-family: 'Segoe UI', sans-serif; }
+section { padding: 80px 10%; text-align: center; }
+
+/* Main (Hero) Section Styling */
+.hero-section {
+    background: #f4f4f4; /* Light grey background */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-section h1 { font-size: 3rem; margin-bottom: 10px; }
+
+/* Contact Section Styling */
+.contact-section { background: #fff; }
+
+.contact-form {
+    max-width: 500px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Button Styling */
+.btn {
+    background: #8a7777;
+    color: #98a3bd;
+    padding: 12px 30px;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover { background: #b8aeae; }
+
+/* Footer */
+.main-footer {
+    background: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+a{
+  text-align: left;
+}
+/* Container for the nav */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #150f31; /* Dark Discord background */
+    padding: 20px 20px;
+    color: #dcddde;
+    font-family: sans-serif;
+}
+
+/* Logo styling */
+.logo {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+/* Link container */
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+/* Individual link styling */
+.nav-links a {
+    text-decoration: none;
+    color: #b9bbbe; /* Light gray text */
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+footer { /* Styles for the whole footer element */
+  background-color: #151e37;
+  color: rgb(255, 238, 238);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content { /* Styles for the div inside the footer */
+  max-width: 1200px;
+  margin: 0 auto;
+}
